@@ -107,3 +107,61 @@ jobs:
           file: ./artifact/firmware/*
           tag: ${{ github.ref }}
           file_glob: true
+
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt76x8=y
+CONFIG_TARGET_ramips_mt76x8_DEVICE_glinet_gl-mt300n-v2=y
+CONFIG_PACKAGE_bash=y
+CONFIG_PACKAGE_boost=y
+CONFIG_PACKAGE_boost-program_options=y
+CONFIG_PACKAGE_boost-system=y
+CONFIG_PACKAGE_chinadns-ng=y
+CONFIG_PACKAGE_coreutils-nohup=y
+CONFIG_PACKAGE_dns2tcp=y
+CONFIG_PACKAGE_frpc=y
+CONFIG_PACKAGE_kmod-crypto-kpp=y
+CONFIG_PACKAGE_kmod-crypto-lib-blake2s=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=y
+CONFIG_PACKAGE_kmod-crypto-lib-curve25519=y
+CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y
+CONFIG_PACKAGE_kmod-udptunnel4=y
+CONFIG_PACKAGE_kmod-udptunnel6=y
+CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_libmaxminddb=y
+CONFIG_PACKAGE_libmbedtls=y
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libreadline=y
+CONFIG_PACKAGE_libstdcpp=y
+CONFIG_PACKAGE_lua-cjson=y
+CONFIG_PACKAGE_lua-maxminddb=y
+CONFIG_PACKAGE_luasocket=y
+# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Socks5_Proxy is not set
+# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Socks_Server is not set
+# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Trojan is not set
+# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Trojan-Go is not set
+# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Xray is not set
+CONFIG_PACKAGE_luci-app-frpc=y
+CONFIG_PACKAGE_luci-app-passwall=y
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+CONFIG_PACKAGE_luci-app-vssr=y
+CONFIG_PACKAGE_luci-app-wireguard=y
+CONFIG_PACKAGE_luci-compat=y
+CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-vssr-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_luci-theme-atmaterial_new=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+CONFIG_PACKAGE_simple-obfs-client=y
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_trojan-plus=y
+CONFIG_PACKAGE_unzip=y
+# CONFIG_PACKAGE_vsftpd-alt is not set
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_boost-compile-visibility-hidden=y
+CONFIG_boost-runtime-shared=y
+CONFIG_boost-static-and-shared-libs=y
+CONFIG_boost-variant-release=y
