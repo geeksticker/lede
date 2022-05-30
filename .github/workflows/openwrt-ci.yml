@@ -5,7 +5,7 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-name: MT300n-V2 arm版本v1
+name: MT300n-V2 Test1
 
 on:
   schedule:
